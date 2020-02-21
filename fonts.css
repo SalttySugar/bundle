@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Century Gothic" sans-serif;
+    src: url("./assets/fonts/century-gothic.ttf") format("truetype"),
+   }
+  
+  
+   @font-face {
+    font-family: "Calibri" sans-serif;
+    src: url("./assets/fonts/calibri.ttf") format("truetype"),
+   }
