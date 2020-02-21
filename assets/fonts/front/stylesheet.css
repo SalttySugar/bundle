@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('hinted-CenturyGothic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('hinted-Calibri.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

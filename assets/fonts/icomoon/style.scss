@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?mfsaig');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?mfsaig#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?mfsaig') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?mfsaig') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?mfsaig##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?kjbv1s');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?kjbv1s#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?kjbv1s') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?kjbv1s') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?kjbv1s##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-add {
+  &:before {
+    content: $icon-add; 
+  }
+}
 .icon-envelope {
   &:before {
     content: $icon-envelope;     
@@ -81,11 +86,6 @@
   &:before {
     content: $icon-youtube;     
     color: #bcbcbc;
-  }
-}
-.icon-add {
-  &:before {
-    content: $icon-add; 
   }
 }
 
