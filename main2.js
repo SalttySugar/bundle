@@ -20,14 +20,14 @@ function add_to_cart()
     let cart_controls = $('<div class="product-item-cart-control"> </div>');
 
     let cart_trash = $('<i class="icon icon-trash"></i>');
-    let cart_quantity = $('<span class="quantity"><i class="icon icon-loading"> </i></span>');
+    let cart_quantity = $('<span class="quantity"><i class="icon icon-loading"></i></span>');
     let cart_add = $('<i class="icon icon-add"></i>');
     
     cart_trash.click(remove_from_cart);
     cart_add.click(function(){
 
         let current = Number.parseInt(cart_quantity.text());
-        cart_quantity.text();
+        cart_quantity.text("2");
 
 
     });
