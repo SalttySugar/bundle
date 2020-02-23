@@ -1,3 +1,28 @@
+/**
+ * loading-screen
+ */
+
+
+
+function loaded()
+{
+
+    $("#loading-screen").css({transition: "0.25s ease-in"});
+    $(".page-wrapper").css({visibility:"visible"});
+    $("#loading-screen").css({opacity: "0"});
+    
+
+    setTimeout(function(){
+        $("#loading-screen").css({display: "none"});
+    } , 250);
+}
+
+
+$(window).on("load",function(){
+    loaded();
+})
+
+
 
 function remove_from_cart()
 {
